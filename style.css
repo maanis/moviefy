@@ -44,7 +44,7 @@ body {
 .hero {
     height: 100%;
     width: 100%;
-    background: url("assets/movies/Iron-Man/bposter.jpg") no-repeat center center/cover;
+    /* background: url("assets/movies/Iron-Man/bposter.jpg") no-repeat center center/cover; */
     background-repeat: no-repeat;
     /* background: url(/assets/trailers/moneyHiest.mp4); */
     /* opacity: 0.7; */
