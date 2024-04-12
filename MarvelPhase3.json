@@ -1,0 +1,147 @@
+[
+    {
+        "name": "Black Widow",
+        "imdb": "6.7",
+        "date": "July 9, 2021",
+        "sposter": "assets/movies/Black-Widow/sposter.jpg",
+        "bposter": "assets/movies/Black-Widow/bposter.jpg",
+        "genre": "Action, Adventure, Sci-Fi",
+        "type": "Movie",
+        "url": "",
+        "trailer": "",
+        "hero": "assets/movies/Black-Widow/bposter.jpg"
+    },
+    {
+        "name": "Shang-Chi and the Legend of the Ten Rings",
+        "imdb": "7.4",
+        "date": "September 3, 2021",
+        "sposter": "assets/movies/Shang-Chi-and-the-Legend-of-the-Ten-Rings/sposter.jpg",
+        "bposter": "assets/movies/Shang-Chi-and-the-Legend-of-the-Ten-Rings/bposter.jpg",
+        "genre": "Action, Adventure, Fantasy",
+        "type": "Movie",
+        "url": "",
+        "trailer": "",
+        "hero": "assets/movies/Shang-Chi-and-the-Legend-of-the-Ten-Rings/bposter.jpg"
+    },
+    {
+        "name": "Eternals",
+        "imdb": "6.3",
+        "date": "November 5, 2021",
+        "sposter": "assets/movies/Eternals/sposter.jpg",
+        "bposter": "assets/movies/Eternals/bposter.jpg",
+        "genre": "Action, Adventure, Fantasy",
+        "type": "Movie",
+        "url": "",
+        "trailer": "",
+        "hero": "assets/movies/Eternals/bposter.jpg"
+    },
+    {
+        "name": "Spider-Man: No Way Home",
+        "imdb": "6.2",
+        "date": "December 17, 2021",
+        "sposter": "assets/movies/Spider-Man-No-Way-Home/sposter.jpg",
+        "bposter": "assets/movies/Spider-Man-No-Way-Home/bposter.jpg",
+        "genre": "Action, Adventure, Comedy",
+        "type": "Movie",
+        "url": "",
+        "trailer": "",
+        "hero": "assets/movies/Spider-Man-No-Way-Home/bposter.jpg"
+    },
+    
+    {
+        "name": "Doctor Strange in the Multiverse of Madness",
+        "imdb": "7.2",
+        "date": "May 6, 2021",
+        "sposter": "assets/movies/Doctor-Strange-in-the-Multiverse-of-Madness/sposter.jpg",
+        "bposter": "assets/movies/Doctor-Strange-in-the-Multiverse-of-Madness/bposter.jpg",
+        "genre": "Action/Adventure",
+        "type": "Movie",
+        "url": "",
+        "trailer": "",
+        "hero": "assets/movies/Doctor-Strange-in-the-Multiverse-of-Madness/bposter.jpg"
+    },
+    {
+        "name": "Thor: Love and Thunder",
+        "imdb": "6.2",
+        "date": "July 8, 2022",
+        "sposter": "assets/movies/Thor-Love-and-Thunder/sposter.jpg",
+        "bposter": "assets/movies/Thor-Love-and-Thunder/bposter.jpg",
+        "genre": "Action, Adventure, Sci-Fi",
+        "type": "Movie",
+        "url": "",
+        "trailer": "",
+        "hero": "assets/movies/Thor-Love-and-Thunder/bposter.jpg"
+    },
+    {
+        "name": "Black Panther: Wakanda Forever",
+        "imdb": "6.7",
+        "date": "November 11, 2022",
+        "sposter": "assets/movies/Black-Panther-Wakanda-Forever/sposter.jpg",
+        "bposter": "assets/movies/Black-Panther-Wakanda-Forever/bposter.jpg",
+        "genre": "Action, Adventure, Drama",
+        "type": "Movie",
+        "url": "",
+        "trailer": "",
+        "hero": "assets/movies/Black-Panther-Wakanda-Forever/bposter.jpg"
+    },
+    {
+        "name": "Ant-Man and the Wasp: Quantumania",
+        "imdb": "6.1",
+        "date": "February 17, 2023",
+        "sposter": "assets/movies/Ant-Man-and-the-Wasp-Quantumania/sposter.jpg",
+        "bposter": "assets/movies/Ant-Man-and-the-Wasp-Quantumania/bposter.jpg",
+        "genre": "Action, Adventure, Comedy",
+        "type": "Movie",
+        "url": "",
+        "trailer": "",
+        "hero": "assets/movies/Ant-Man-and-the-Wasp-Quantumania/bposter.jpg"
+    },
+    {
+        "name": "Guardians of the Galaxy Vol. 3",
+        "imdb": "7.9",
+        "date": "May 5, 2023",
+        "sposter": "assets/movies/Guardians-of-the-Galaxy-Vol3/sposter.jpg",
+        "bposter": "assets/movies/Guardians-of-the-Galaxy-Vol3/bposter.webp",
+        "genre": "Action",
+        "type": "Movie",
+        "url": "",
+        "trailer": "",
+        "hero": "assets/movies/Guardians-of-the-Galaxy-Vol3/bposter.webp"
+    },
+    {
+        "name": "The Marvels",
+        "imdb": "5.5",
+        "date": "November 11, 2023",
+        "sposter": "assets/movies/The-Marvels/sposter.jpg",
+        "bposter": "assets/movies/The-Marvels/bposter.jpg",
+        "genre": "Action, Adventure, Fantasy",
+        "type": "Movie",
+        "url": "",
+        "trailer": "",
+        "hero": "assets/movies/The-Marvels/bposter.jpg"
+    },
+    {
+        "name": "Captain America: New World Order",
+        "imdb": "Post Production",
+        "date": "2025",
+        "sposter": "assets/movies/Captain-America-New-World-Order/sposter.jpg",
+        "bposter": "assets/movies/Captain-America-New-World-Order/bposter.webp",
+        "genre": "Action",
+        "type": "Movie",
+        "url": "",
+        "trailer": "",
+        "hero": "assets/movies/Captain-America-New-World-Order/bposter.webp"
+    },
+    {
+        "name": "Thunderbolts",
+        "imdb": "Filming",
+        "date": "2025",
+        "sposter": "assets/movies/Thunderbolts/sposter.jpeg",
+        "bposter": "assets/movies/Thunderbolts/bposter.jpg",
+        "genre": "Action, Adventure, Crime",
+        "type": "Movie",
+        "url": "",
+        "trailer": "",
+        "hero": "assets/movies/Thunderbolts/bposter.jpg"
+    }
+]

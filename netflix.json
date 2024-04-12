@@ -1,0 +1,222 @@
+[
+
+    {
+        "name": "Money Hiest",
+        "imdb": "9.3",
+        "date": "2022",
+        "sposter": "assets/money-hiest.jpg",
+        "bposter": "https://occ-0-2087-2186.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABfuBxwODJWGpnxkkB_o4u6261-94UU3qXviCR10RUPHt_t2aUmLdxZSf9Ya1QPVE-RSGPIFap0ktl5E9IzJCdmOleGJlBtkgbJ9w5m7dY_HIg34-vtCLyJn7oD0YolAl8jOJ.jpg?r=8a4",
+        "genre": "Action",
+        "type": "Series",
+        "url": "",
+        "trailer": "",
+        "hero": "assets/money-hiest.jpg"
+    },
+    {
+        "name": "Extraction 2",
+        "imdb": "9.3",
+        "date": "2022",
+        "sposter": "https://m.media-amazon.com/images/M/MV5BZjg5MTM4N2QtN2RlMS00NzBlLTg3NDktM2ExZDNmMmExMGU3XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
+        "bposter": "https://occ-0-2087-2186.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABdk3bgQOYRvRUqDOzNAP8ICcF5BJ9alYqTJfQXy2FQ_-lRggcdvBnCGHS3FVWCC32F0A--ItBU14hd4ibqiooiFOFbJXC61NbwNPmvg9hMD7G2Hwdtsxqph2eAtA6fKFQFDz.jpg?r=891",
+        "genre": "Action",
+        "type": "Series",
+        "url": "",
+        "trailer": "",
+        "hero": "https://www.koimoi.com/wp-content/new-galleries/2023/05/extraction-2-drops-the-much-awaited-posters-now-check-them-out-01.jpg"
+    },
+    {
+        "name": "Stranger Things",
+        "imdb": "9.3",
+        "date": "2022",
+        "sposter": "https://images-cdn.ubuy.co.in/651b073ba9e01902321bb1d5-netflix-stranger-things-one-sheet-wall.jpg",
+        "bposter": "https://occ-0-2087-2186.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABbiq9cEcKyIZ_euonV5z58pBz2amn8E9h1VIz3INfNwyNCDaWb7_pQpy4kHkwA3CP-epUMozytyT2ZMCRfB8c3TpchHfJvHcLcFMByt7qDRZrCrbbH-ZaKQ9P3OcMWIKjLLU.jpg?r=f3e",
+        "genre": "Action",
+        "type": "Series",
+        "url": "",
+        "trailer": "",
+        "hero": "https://wallpapers.com/images/high/finn-wolfhard-stranger-things-still-3pxa99tayt6xgp2u.webp"
+    },
+    {
+        "name": "Alice In Borderlands",
+        "imdb": "9.3",
+        "date": "2022",
+        "sposter": "https://image.tmdb.org/t/p/original/20mOwAAPwZ1vLQkw0fvuQHiG7bO.jpg",
+        "bposter": "https://occ-0-2087-2186.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABbPtcLDyxdzbXFPkH3Gj1zYcwDK9zP9snX_f9_OSbFpbNxAteirfHWIeJE83dMaox8THTuyk-UY6XjzfwODTKo1ZJ6JKYUKzSe-sjWw7EspQsT8Dy3PvSPsDDwDZlz_axCby.jpg?r=0c8",
+        "genre": "Action",
+        "type": "Series",
+        "url": "",
+        "trailer": "",
+        "hero": "https://wallpapers.com/images/featured/alice-in-borderland-79olr58iub9u7zbl.jpg"
+    },
+    {
+        "name": "One Piece",
+        "imdb": "9.3",
+        "date": "2022",
+        "sposter": "https://cdn.i-scmp.com/sites/default/files/styles/portrait/public/d8/images/canvas/2023/01/31/ce9f52f2-5bd4-49ca-9d71-28bc2e32878b_03c75751.jpg?itok=yDMFJeuC&v=1675137686",
+        "bposter": "https://occ-0-2087-2186.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABXOvVJZdRnu3EU1Nz3yrF48GpN85jRjJXwSo1uNHsmZko8rhNXcKgA-dl9XofUCZdy9WZ905Nz-CooQP7pq_FjA8dbSQ1TnUlcXdvNkJrvabyb4kVMeW9oM6n34dYPj6J32m.jpg?r=a95",
+        "genre": "Action",
+        "type": "Series",
+        "url": "",
+        "trailer": "",
+        "hero": "https://images.hellomagazine.com/horizon/landscape/daab92b450c2-one-piece.jpg"
+    },
+    {
+        "name": "Breaking Bad",
+        "imdb": "9.3",
+        "date": "2022",
+        "sposter": "https://images-cdn.ubuy.co.in/655f0b93f79c175825542b76-breaking-bad-poster-24inx36in-61cm-x.jpg",
+        "bposter": "https://occ-0-2087-2186.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABZ_wyuaKDX2rC8U6CONyA1ZeHvlF8tcl3bTw7rcp4dnY9ziAEwIy_Gb6-cUO7khOgUB9sQoOr5YZcDqZ7JL0UZD2ImpFysUikCo.webp?r=01d",
+        "genre": "Action",
+        "type": "Series",
+        "url": "",
+        "trailer": "",
+        "hero": "https://wallpapers.com/images/high/breaking-bad-background-bgpiwr9axx0winnl.webp"
+    },
+    {
+        "name": "Vincenzo",
+        "imdb": "9.3",
+        "date": "2022",
+        "sposter": "https://image.tmdb.org/t/p/original/fT7C1pt8eosHqATOGb8MnWQ5zHG.jpg",
+        "bposter": "https://occ-0-2087-2186.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABVT59AReBhws780He2THvOsIw6GsIBY9peHwEaNnlkqHeVy_M2LTrEUs1ccWPNHHeNKerdzT_QfVWFvNKvAmlWXYJgmimTkpcsvUSDGktezLvsp8lYpcWczueku-nLRBEvis.jpg?r=ac9",
+        "genre": "Action",
+        "type": "Series",
+        "url": "",
+        "trailer": "",
+        "hero": "https://wallpapers.com/images/hd/vincenzo-pointing-a-gun-ocsle0kvt3dlg3aw.jpg"
+    },
+    {
+        "name": "Lucifer",
+        "imdb": "9.3",
+        "date": "2022",
+        "sposter": "https://image.tmdb.org/t/p/original/e6FQvm5jycG9xx1ZWowIYBc3Shn.jpg",
+        "bposter": "https://occ-0-2087-2186.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABVOHcpzaafmWUCkuvJwu8Bw1ysqucnutAp8Ov1PXP_PUV42y18hCyZt6rb2onkSzvGQToP_qSyL0N-Q9gXiMRm5pg3H6eFXAHsLvcjcqOO41S1Yx0co-JmK-UsFn1wnB6d0l.jpg?r=31e",
+        "genre": "Action",
+        "type": "Series",
+        "url": "",
+        "trailer": "",
+        "hero": "https://images.hellomagazine.com/horizon/landscape/d5902c8d1a7d-lucifer-absence-t.jpg"
+    },
+    {
+        "name": "Peaky Blinders",
+        "imdb": "9.3",
+        "date": "2022",
+        "sposter": "https://rukminim2.flixcart.com/image/850/1000/xif0q/poster/b/y/z/small-poster007-peaky-blinder-tv-series-posters-pandit-ji-poster-original-imaggkdhedfgxgn2.jpeg?q=90&crop=false",
+        "bposter": "https://occ-0-2087-2186.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABS1FS4figHwRCGYwvES6cVXbi1sCtl7UrmbjI8UkMGU6ei7zicfcd9XIvj-gKvpyjaBkbmGvMZUq3o1T1-VUqSMLIYCR_eLAJB6dRmJPXoflwfzGolh3Rfe37tFxWMtuKtWe.jpg?r=482",
+        "genre": "Action",
+        "type": "Series",
+        "url": "",
+        "trailer": "",
+        "hero": "https://wallpapers.com/images/hd/the-shelby-family-of-peaky-blinders-1vx091mjkqn323ua.jpg"
+    },
+    {
+        "name": "Fast And Furious",
+        "imdb": "9.3",
+        "date": "2022",
+        "sposter": "https://www.tallengestore.com/cdn/shop/products/Fast_Furious_1_-_Paul_Walker_-_Vin_Diesel_-_Tallenge_Hollywood_Action_Movie_Poster_f1bf2dd5-d86c-4a3f-b363-f4e8815adc37.jpg?v=1582542985",
+        "bposter": "https://occ-0-2087-2186.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABQ5J0o9q2EdusGkWujcg9JMyLWKkX_W43hc8h6v03zANXH4NZfPhfAbK7pP3qdJTQrCMq4zm61fl_lSfJUSXQcDpAvw5XMYdRoE.webp?r=694",
+        "genre": "Action",
+        "type": "Series",
+        "url": "",
+        "trailer": "",
+        "hero": "https://sportshub.cbsistatic.com/i/2023/03/14/60986bfb-5a78-41d5-9b22-7b35350209bb/fast-x-poster-header.jpg"
+    },
+    {
+        "name": "Ye Jawani Hai Deewani",
+        "imdb": "9.3",
+        "date": "2022",
+        "sposter": "https://m.media-amazon.com/images/M/MV5BODA4MjM2ODk4OF5BMl5BanBnXkFtZTcwNDgzODk1OQ@@._V1_FMjpg_UX1000_.jpg",
+        "bposter": "https://occ-0-2087-2186.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABdLG5WnMmf-X1Nh46HIe-PCIWj6YmHPLZmWXjPYdJAOZPf-CxNsx3MRpH7S0yosKR56Ndb8iOD6v_z-w9WWopeVIo0TcqHbCAo8.webp?r=db4",
+        "genre": "Action",
+        "type": "Series",
+        "url": "",
+        "trailer": "",
+        "hero": "https://wallpapercave.com/wp/wp6755102.jpg"
+    },
+    {
+        "name": "Animal",
+        "imdb": "9.3",
+        "date": "2022",
+        "sposter": "https://occ-0-2087-2186.1.nflxso.net/dnm/api/v6/WNk1mr9x_Cd_2itp6pUM7-lXMJg/AAAABdZhhRT9iL4YCq_NZCr9464Fy3diiVWLY7zHesCWoVERGPpwWfl5sVIqu3nWAIyHKJTWJ-l_LFk_TdVCORilpMLSIZ19OuBI45Cu.webp?r=d31",
+        "bposter": "https://assets.thehansindia.com/h-upload/2023/01/01/1327897-animal-movie.jpg",
+        "genre": "Action",
+        "type": "Series",
+        "url": "",
+        "trailer": "",
+        "hero": "https://static1.colliderimages.com/wordpress/wp-content/uploads/2023/09/animal-rashmika-mandanna-featured.jpg"
+    },
+    {
+        "name": "Berlin",
+        "imdb": "9.3",
+        "date": "2022",
+        "sposter": "https://pbs.twimg.com/media/D-jl22bWsAEaGJA.jpg:large",
+        "bposter": "https://occ-0-2087-2186.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABe-hRns0pNaO768Hz3h26wWxRpv8hvSmB79Lt_c-Zl8ReB2JXNA9u1UrvpREU7gF4c43bIEyBruOPOu87PMB4o89uFNnm82s-AJ0N9XIveHV2P0dtYGHgwNou0LbGD8l6ACr.jpg?r=84b",
+        "genre": "Action",
+        "type": "Series",
+        "url": "",
+        "trailer": "",
+        "hero": "https://media.cnn.com/api/v1/images/stellar/prod/231218165755-berlin-pedro-alonso-1.jpg?c=16x9&q=h_833,w_1480,c_fill"
+    },
+    
+    {
+        "name": "Vikings",
+        "imdb": "9.3",
+        "date": "2022",
+        "sposter": "https://i.pinimg.com/564x/0b/b8/3e/0bb83e2d1d6547d06c8c20b54c61a0a7.jpg",
+        "bposter": "https://occ-0-2087-2186.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABcI82BDQ-Lh6WW74-1-VAmj-ZzbYYotXq7GVDiCdu7hhcBdYxaemF_WK-AGSr1a6P5W6ASSrhu-mYQwR1HCuKtd6GEsERPGxPSw.webp?r=1c7",
+        "genre": "Action",
+        "type": "Series",
+        "url": "",
+        "trailer": "",
+        "hero": "https://wallpapers.com/images/hd/viking-sword-and-shield-3i0ybdwc5nruqoev.webp "
+    },
+    {
+        "name": "Death Note",
+        "imdb": "9.3",
+        "date": "2022",
+        "sposter": "https://m.media-amazon.com/images/I/71GqUgwo-eL.jpg",
+        "bposter": "https://occ-0-2087-2186.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABcpzgLgaGY8llWGw3rcVDvOTOdOcDGB5p9o0G5ukc-2KQu18vMqQs2t-0I_PYgy8iOLWxW4hYuIoI4bR2Nt3HwlahkFZNnwxH4Y.webp?r=f47",
+        "genre": "Action",
+        "type": "Series",
+        "url": "",
+        "trailer": "",
+        "hero": "https://wallpapers.com/images/hd/death-note-fanart-for-l-rzfid3h2lagbdv9e.jpg"
+    },
+    {
+        "name": "Leo",
+        "imdb": "9.3",
+        "date": "2022",
+        "sposter": "https://akm-img-a-in.tosshub.com/indiatoday/styles/medium_crop_simple/public/2023-09/f6d_fktb0aacqri.jpg?VersionId=ddP.b.9.grZ3q1gAE_2MJuMmcYchS8Ei&size=750:*",
+        "bposter": "https://occ-0-2087-2186.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABZewu02vnwQLUpTKrcEzaF5T1GgfeCjkKwXVn_W_nhyG5esNut2QI0Ox3C4QU04XXYHzooxIpdctE-Oe8n_RLkd7eFXf5SFWXqs.webp?r=ddf",
+        "genre": "Action",
+        "type": "Series",
+        "url": "",
+        "trailer": "",
+        "hero": "https://images.ottplay.com/images/poster-for-leo-87.jpg?impolicy=ottplay-20210210&width=1200&height=675"
+    },
+    {
+        "name": "Class",
+        "imdb": "9.3",
+        "date": "2022",
+        "sposter": "https://i.pinimg.com/736x/06/44/85/064485f636bb70826554ab6cf46b002d.jpg",
+        "bposter": "https://occ-0-2087-2186.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABazemluO34eJn7Odib3Ne33bCe_rCYyehsT5B3gmzIN3U7JQVMLGhyxzjMS2wfL8QC8ndiCUkMebFFCbCdj7bdehy5dhjLLAbGrJa4xMk50c7cTHQwCUC3POQNnJDq052QuK.jpg?r=eaa",
+        "genre": "Action",
+        "type": "Series",
+        "url": "",
+        "trailer": "",
+        "hero": "https://sc0.blr1.cdn.digitaloceanspaces.com/article/186421-hpjxvhvstx-1675360831.jpg"
+    },
+    
+    {
+        "name": "Fighter",
+        "imdb": "9.3",
+        "date": "2022",
+        "sposter": "https://occ-0-2087-2186.1.nflxso.net/dnm/api/v6/WNk1mr9x_Cd_2itp6pUM7-lXMJg/AAAABZ8Hgfgc6LMl93TeBx9HXB2fv_gG658h4rVuF2KKm4eq-v1WMLPyIONm63fB6FUb8ocNiKut71sWxG4zRClJioFFskSECj6P5hhS4dEHRIoy_QaRpNNlYXgJuCvRrJ_tlMm3S3xNwZi2ZBAmsDP6UIoQted5Z9sU35yxD9toxEWrYGtU8uDs2yT6o9AjfBaB6XTanYk7GMIUPpBHC8ToIIFUI8qPPYN3zgAAsxHhTFfA_IGQYT482EethGfDYlj_5q2j7saqv1Rjd-qrjjw8hbk6V94Wew.webp?r=46c",
+        "bposter": "https://occ-0-2087-2186.1.nflxso.net/dnm/api/v6/Qs00mKCpRvrkl3HZAN5KwEL1kpE/AAAABbSKyHtqRNo1RcSidCaBZogFpV0R5746Bkh6bHEFnabXYxKx6enMLw5q0wjWLDSjGCv1OrxJLIb4YOjKo3Ndw8Z7E0KOnHCtiwV4x731unnvjhese_UEWrCjUwqFbQe5SdjscdzeO6O8q32fvGYXNOVcRcg5NX53SuFWtesvDMFG2ao2NFYFFIfvJSCGnYw36F9G3zzutOPsgFQ8hQIZkeOAgbCaw25XcU9-mabmNzhEtB64f-Gchdvwjw0rnoD4KvZ1_ftxEpTbK-fjZlLZPT_jdrCSAsv7p8vouOL7PbsB-iKQzE8XiG8JadbYMWsotBuM7CHrmG99fi2DEVIRRkQ.webp?r=aff",
+        "genre": "Action",
+        "type": "Series",
+        "url": "",
+        "trailer": "",
+        "hero": "https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABb4e1R_o9lj1KmvgO_26Zd2wzG2Oa6Eej_Fu1t-4pfnjxbftpUU1txAqm1vBFdd4EqYYXS31bsou8yVbaSQlJgFAzxgSFOnR4m2b.jpg?r=c73"
+    }
+
+]
