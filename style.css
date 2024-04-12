@@ -454,7 +454,7 @@ a {
 .ss-section {
     position: absolute;
     height: 40rem;
-    right: 5rem;
+    right: 7rem;
     top: 20%;
     /* background-color: red; */
     z-index: 14;
@@ -491,6 +491,9 @@ a {
     display: block;
     border-radius: 4px;
     margin: 8px;
+    aspect-ratio: 4 / 2.6;
+    object-fit: cover;
+    width: 100%;
 }
 
 @keyframes btn {

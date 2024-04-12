@@ -142,6 +142,10 @@ async function main() {
             document.getElementById('frame-src').src = e.iframe
             console.log(e.frame)
 
+            document.getElementById('img1').src = e.ss1
+            document.getElementById('img2').src = e.ss2
+            document.getElementById('img3').src = e.ss3
+
             // console.log(e[el.target.id].name)
             console.log(e.name)
             console.log(e.imdb)
