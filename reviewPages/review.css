@@ -433,7 +433,7 @@ a {
     overflow-x: hidden;
     margin-bottom: 22px;
     padding-bottom: 22px;
-    width: 85%;
+    width: 90%;
     border: 1px solid #fff;
     /* margin: -50px auto; */
     margin-inline: auto;
@@ -624,6 +624,10 @@ input:checked~label {
     color: black;
     padding: 4px;
     outline: none;
+    box-shadow: inset 10px 10px 10px -1px rgba(0, 99, 169, 0.16),
+        inset -10px -10px 10px -1px rgba(255, 255, 255, 0.70);
+    padding: 8px;
+    border-radius: 8px;
 }
 
 
@@ -635,6 +639,10 @@ input:checked~label {
     color: black;
     outline: none;
     padding: 4px;
+    box-shadow: inset 10px 10px 10px -1px rgba(0, 99, 169, 0.16),
+        inset -10px -10px 10px -1px rgba(255, 255, 255, 0.70);
+    padding: 8px;
+    border-radius: 8px;
 }
 
 .sub-btn-container {

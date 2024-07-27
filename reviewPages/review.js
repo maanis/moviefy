@@ -35,12 +35,14 @@ let data = [{
 ]
 
 let rateRadio = document.querySelectorAll('.rateRadio')
-console.log(rateRadio)
+console.log(rateRadio.checked)
 
 rateRadio.forEach((e) => {
+    console.log(e.checked)
     return (
-        e.addEventListener('click', (e) => {
-            rate = e.target.id
+        e.addEventListener('click', (el) => {
+            rate = el.target.id
+            console.log(el.checked)
             document.getElementById('formRatingText').style.display = 'block'
             document.getElementById('formRating').innerHTML = rate + '/'
 
@@ -69,6 +71,11 @@ function handleSubmit(e) {
 
             </div>`
         reviewSec.append(elem)
+        for (let i = 0; i < rateRadio.length; i++) {
+            rateRadio[i].checked = false
+        }
+        document.getElementById('formRatingText').style.display = 'none'
+        hideForm()
     }
     headText.value = ''
     // rate = 0
