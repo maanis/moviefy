@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding: 8rem;
+}
+
+html,
+body {
+    font-size: 62.5%;
+    height: 100%;
+    width: 100%;
+}
+
+.hero{
+    background: url(/assets/netflix-bg.jpg) no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gradient{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(205, 205, 205, 0.129);
+    backdrop-filter: blur(4px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* opacity: 0.8; */
+}
+.login-container{
+    height: 80%;
+    width: 45%;
+    background-color: rgba(255, 255, 255, 0.285);
+    /* background-color: red; */
+    backdrop-filter: blur(14px);
+    border-radius: 8px;
+    position: relative;
+}

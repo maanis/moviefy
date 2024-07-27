@@ -4,6 +4,7 @@ function showInput() {
 
 }
 
+console.log(document.querySelector('.review-button').href)
 document.querySelector('.cross').addEventListener('click', () => {
     document.querySelector('.search-input').classList.remove('show-input')
     document.querySelector('.cross').style.display = "none"
@@ -30,7 +31,7 @@ function openNav() {
     document.querySelector('#ham-ul').classList.toggle('ul-show')
 }
 
-function hide(){
+function hide() {
     document.querySelector('.hamburger-items').classList.remove('ham-show')
     document.querySelector('#ham-ul').classList.remove('ul-show')
 }
@@ -90,6 +91,8 @@ async function main() {
     data.forEach((e, id) => {
 
         // -------------search section-----------
+        console.log(e)
+
         let search_card = document.createElement('a')
         search_card.classList.add('cards')
         search_card.innerHTML = `<img src="${e.sposter}" alt="">
@@ -101,7 +104,7 @@ async function main() {
 
         search_card.addEventListener('click', (el) => {
             document.querySelector('.hero').style.background = `url(${e.hero}) no-repeat center center/cover`
-            
+
             document.getElementById('head-name').innerHTML = e.name
             // console.log(e[el.target.id].name)
             console.log(e.trailer)
@@ -140,6 +143,9 @@ async function main() {
             document.getElementById('head-genre').innerHTML = `${e.genre}`
             // document.getElementById('hero-vid').src = `${e.trailer}`
             document.getElementById('frame-src').src = e.iframe
+            document.querySelector('.review-button').href = e.review
+            // console.log(document.querySelector('.review-button').href)
+            console.log(document.querySelector('.review-button'))
             console.log(e.frame)
 
             document.getElementById('img1').src = e.ss1

@@ -7,10 +7,12 @@
     font-family: "Poppins", sans-serif;
     color: white;
 }
-html{
+
+html {
     scroll-behavior: smooth;
     scroll-padding: 8rem;
 }
+
 html,
 body {
     font-size: 62.5%;
@@ -865,6 +867,11 @@ a {
     .nav-bar {
         height: 7rem;
     }
+
+    .search-container {
+        top: 7rem;
+    }
+
     .hamburger-items {
         top: 7rem;
     }
@@ -905,6 +912,7 @@ a {
         right: 0;
         margin-left: 1.3rem;
     }
+
     .card-details h2 {
         font-size: 1.6rem;
         text-overflow: ellipsis;
@@ -918,16 +926,22 @@ a {
     html {
         font-size: 40%;
     }
-    .main-logo{
+
+    .main-logo {
         font-size: 4rem;
     }
+
     .columns {
         top: 58%;
     }
-    .hamburger, .search-logo i, .cross i{
+
+    .hamburger,
+    .search-logo i,
+    .cross i {
         font-size: 3.4rem;
     }
-    .logo img{
+
+    .logo img {
         width: 3.3rem;
         margin-left: .8rem;
     }
@@ -969,8 +983,8 @@ a {
         position: absolute;
         left: 0;
         border-radius: 0;
-        top: -7rem;
-        height: 7rem;
+        top: -9rem;
+        height: 9rem;
         background-color: #212121;
         color: white;
         transition: all .2s ease;
@@ -986,13 +1000,17 @@ a {
         font-size: 2.6rem;
         /* color: white; */
     }
+
     .nav-bar {
         height: 9rem;
     }
-    .hamburger-items {
+
+    .hamburger-items,
+    .search-container {
         top: 9rem;
     }
-    .ham-ul li a{
+
+    .ham-ul li a {
         cursor: default;
     }
 }
