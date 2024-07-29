@@ -1485,6 +1485,10 @@ input:checked~label {
     top: 0;
   }
 
+  .cast {
+    width: 92%;
+  }
+
   .search-box .search-input::-moz-placeholder {
     font-size: 2.6rem;
     /* color: white; */
