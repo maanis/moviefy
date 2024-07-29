@@ -364,7 +364,7 @@ a {
 .cast .box {
     height: 18rem;
     width: 18rem;
-    background-color: purple;
+    /* background-color: purple; */
     border-radius: 50%;
     /* display: flex;
     justify-content: center;
@@ -831,6 +831,13 @@ input:checked~label {
         top: 7rem;
     }
 
+    .search-container {
+        top: 7rem;
+        width: 100%;
+        right: 0;
+        margin-left: 1.3rem;
+    }
+
     .main-logo {
         font-size: 3.4rem;
     }
@@ -904,6 +911,10 @@ input:checked~label {
 
     .search-box .show-input {
         top: 0;
+    }
+
+    .search-container {
+        top: 9rem;
     }
 
     .search-box .search-input::placeholder {

@@ -6,6 +6,18 @@ let searchValue = document.getElementById('search-input')
 
 let rate
 
+function showInput() {
+    document.querySelector('.search-input').classList.add('show-input')
+    document.querySelector('.cross').style.display = "block"
+}
+
+document.querySelector('.cross').addEventListener('click', () => {
+    document.querySelector('.search-input').classList.remove('show-input')
+    document.querySelector('.cross').style.display = "none"
+    search_input.value = ""
+    search_container.style.visibility = "hidden"
+})
+
 function showForm() {
     document.querySelector(".review-form").classList.add('form-show')
 }
@@ -138,7 +150,6 @@ async function main() {
 
             for (let i = 0; i < a.length; i++) {
                 let b = a[i].getElementsByClassName('h-name')[0]
-                // console.log(b)
                 let textValue = b.textContent.toUpperCase() || b.innerText.toUpperCase()
                 if (textValue.indexOf(filter) > -1) {
                     a[i].style.display = "flex"
