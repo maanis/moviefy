@@ -44,6 +44,7 @@ document.querySelector('.btn-trailer').addEventListener('click', () => {
 document.querySelector('.cross-frame').addEventListener('click', () => {
     document.querySelector('.frame-containner').classList.remove('iframe-show')
     document.querySelector('.hero').classList.remove('hero-gradient')
+    document.getElementsByTagName('iframe')[0].pauseVideo()
 
 })
 
@@ -81,6 +82,7 @@ let url = 'MarvelPhase1.json'
 async function main() {
     let res = await fetch(url)
     let data = await res.json()
+    console.log(data);
     // console.log(data[2].name)
     // console.log(typeof data)
     // let Arrdata = Array.from(data)

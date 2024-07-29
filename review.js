@@ -1,6 +1,8 @@
 let headText = document.getElementById('headText')
 let subText = document.getElementById('subText')
 let reviewSec = document.querySelector('#user-review')
+let searchContainer = document.querySelector('.search-container')
+let searchValue = document.getElementById('search-input')
 
 let rate
 
@@ -95,3 +97,68 @@ data.map((e) => {
     reviewSec.append(elem)
 
 })
+
+
+
+let urla = '/MarvelPhase1.json'
+let urlb = '/MarvelPhase2.json'
+let urlc = '/MarvelPhase3.json'
+
+async function main() {
+    let respa = await fetch(urla)
+    let respA = await respa.json()
+
+    let respb = await fetch(urlb)
+    let respB = await respb.json()
+
+    let respc = await fetch(urlc)
+    let respC = await respc.json()
+
+
+    let data = [...respA, ...respB, ...respC]
+
+    data.map((e) => {
+        let newElem = document.createElement('a')
+        newElem.classList.add('cards')
+        newElem.innerHTML = `<img src="/${e.sposter}" alt="">
+                <div class="card-details">
+                    <h2 class="h-name">${e.name}</h2>
+                    <p>${e.genre}, ${e.date}, <span>IMDB</span><i class="fa-solid fa-star"></i>, ${e.imdb}</p>
+                </div>`
+        searchContainer.append(newElem)
+
+        newElem.addEventListener('click', (el) => {
+            newElem.href = '../' + e.review
+        })
+
+
+        searchValue.addEventListener("keyup", () => {
+            let filter = searchValue.value.toUpperCase()
+            let a = searchContainer.getElementsByTagName('a')
+
+            for (let i = 0; i < a.length; i++) {
+                let b = a[i].getElementsByClassName('h-name')[0]
+                // console.log(b)
+                let textValue = b.textContent.toUpperCase() || b.innerText.toUpperCase()
+                if (textValue.indexOf(filter) > -1) {
+                    a[i].style.display = "flex"
+                    searchContainer.style.display = "block"
+                    searchContainer.style.visibility = "visible"
+                    searchContainer.style.opacity = 1
+
+                } else {
+                    a[i].style.display = "none"
+                }
+                if (searchValue.value == '') {
+                    searchContainer.style.display = "none"
+                    searchContainer.style.opacity = 0
+                }
+            }
+        })
+
+    })
+}
+
+main()
+
+
