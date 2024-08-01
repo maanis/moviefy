@@ -132,7 +132,7 @@ async function main() {
     data.map((e) => {
         let newElem = document.createElement('a')
         newElem.classList.add('cards')
-        newElem.innerHTML = `<img src="/${e.sposter}" alt="">
+        newElem.innerHTML = `<img src="../${e.sposter}" alt="">
                 <div class="card-details">
                     <h2 class="h-name">${e.name}</h2>
                     <p>${e.genre}, ${e.date}, <span>IMDB</span><i class="fa-solid fa-star"></i>, ${e.imdb}</p>
