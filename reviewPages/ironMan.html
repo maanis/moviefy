@@ -9,7 +9,7 @@
         integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="review.css">
-    <link rel="stylesheet" href="output.css">
+    <script src="https://cdn.tailwindcss.com"></script>
 
     <style>
         .hero {
@@ -43,7 +43,6 @@
                 </ul>
             </div> -->
 
-            <div class="hamburger" onclick="openNav()"><i class="fa-solid fa-bars-staggered"></i></div>
 
             <div class="search">
                 <div class="search-box"><input id="search-input" class="search-input" type="text"
@@ -55,14 +54,6 @@
 
         </div>
 
-        <div class="hamburger-items">
-            <ul id="ham-ul">
-                <li><a onclick="hide()" href="#">Home</a></li>
-                <li><a onclick="hide()" href="#phase-1">Phase-1</a></li>
-                <li><a onclick="hide()" href="#phase-2">Phase-2</a></li>
-                <li><a onclick="hide()" href="#phase-3">Phase-3</a></li>
-            </ul>
-        </div>
 
 
         <div class="search-container">
@@ -78,9 +69,11 @@
         <div class="content">
             <div class="row-1">
                 <h2>IRON MAN</h2>
-                <span><i class="fa-solid fa-star"></i></span>
-                <p>6.9/10</p>
-                <a href="#user-review">Rate This</a>
+                <div class="flex items-center gap-4">
+                    <span><i class="fa-solid fa-star"></i></span>
+                    <p>6.9/10</p>
+                    <a href="#user-review">Rate This</a>
+                </div>
             </div>
 
             <div class="row-2">
@@ -106,7 +99,7 @@
 
     <div class="cast">
 
-        <a class="box">
+        <!-- <a class="box">
             <img src="../assets/movies/Iron-Man/tonu.jpg" alt="">
             <div class="gradient-text">
                 <h2>Tony Stark</h2>
@@ -142,7 +135,7 @@
             <div class="gradient-text">
                 <h2>Tony Stark</h2>
             </div>
-        </a>
+        </a> -->
 
 
     </div>
@@ -218,7 +211,47 @@
 
 
 
+
     <script src="../review.js"></script>
+    <script>
+
+        let cast = [
+            {
+                image: '../assets/movies/Iron-Man/1.jpg',
+                name: 'Tony Stark'
+            },
+            {
+                image: '../assets/movies/Iron-Man/2.jpg',
+                name: 'Gwyneth Paltrow'
+            },
+            {
+                image: '../assets/movies/Iron-Man/3.jpg',
+                name: 'Jeff Bridges'
+            },
+            {
+                image: '../assets/movies/Iron-Man/4.jpg',
+                name: 'Leslie Bibb'
+            },
+            {
+                image: '../assets/movies/Iron-Man/5.jpg',
+                name: 'Shaun Toub'
+            },
+            {
+                image: '../assets/movies/Iron-Man/6.jpg',
+                name: 'Terrence Howard'
+            },
+        ]
+
+        cast.map((e) => {
+            let elem = document.createElement('a')
+            elem.classList.add('box')
+            elem.innerHTML = `<img src="../${e.image}" alt="">
+            <div class="gradient-text">
+                <h2>${e.name}</h2>
+            </div>`
+            document.querySelector('.cast').appendChild(elem)
+        })
+    </script>
 </body>
 
 </html>

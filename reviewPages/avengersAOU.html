@@ -10,11 +10,12 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="review.css">
     <script src="https://cdn.tailwindcss.com"></script>
+
     <style>
         .hero {
             height: 80%;
             width: 100%;
-            background: url("../assets/movies/The-Incredible-Hulk/incredible\ hulk.png") no-repeat center center/cover;
+            background: url("../assets/movies/Avengers-Age-of-Ultron/bposter.jpg") no-repeat top center/cover;
             background-repeat: no-repeat;
             /* background: url(../assets/trailers/moneyHiest.mp4); */
             /* opacity: 0.7; */
@@ -29,7 +30,9 @@
 
         <div class="nav-bar">
 
-            <div class="main-logo">MovieFy <i class="fa-solid fa-blog"></i></div>
+            <a href="/">
+                <div class="main-logo">MovieFy <i class="fa-solid fa-blog"></i></div>
+            </a>
 
             <!-- <div class="nav-links">
                 <ul>
@@ -45,26 +48,17 @@
                 <div class="search-box"><input id="search-input" class="search-input" type="text"
                         placeholder="search..."></div>
                 <div class="cross"><i class="fa-solid fa-xmark"></i></div>
-                <div onclick="showInput()" class="search-logo cursor-pointer"><i
-                        class="fa-solid fa-magnifying-glass"></i></div>
-                <div class="logo"><img src="../assets/nav-loggo.png" alt=""></div>
+                <div onclick="showInput()" class="search-logo"><i class="fa-solid fa-magnifying-glass"></i></div>
+                <div class="logo"><img src='../assets/nav-loggo.png' alt=""></div>
             </div>
 
         </div>
 
-        <div class="hamburger-items">
-            <ul id="ham-ul">
-                <li><a onclick="hide()" href="#">Home</a></li>
-                <li><a onclick="hide()" href="#phase-1">Phase-1</a></li>
-                <li><a onclick="hide()" href="#phase-2">Phase-2</a></li>
-                <li><a onclick="hide()" href="#phase-3">Phase-3</a></li>
-            </ul>
-        </div>
 
 
         <div class="search-container">
             <!-- <a href="#" class="cards">
-                <img src="../assets/money-hiest.jpg" alt="">
+                <img src="../assets/movies/Ant-Man/sposter.jpg" alt="">
                 <div class="card-details">
                     <h2>Money Hiest</h2>
                     <p>Action, 2021, <span>IMDB</span><i class="fa-solid fa-star"></i>, 9.8</p>
@@ -74,7 +68,7 @@
 
         <div class="content">
             <div class="row-1">
-                <h2>The Incredible Hulk</h2>
+                <h2>Avengers Age of Ultron</h2>
                 <div class="flex items-center gap-4">
                     <span><i class="fa-solid fa-star"></i></span>
                     <p>6.9/10</p>
@@ -83,8 +77,8 @@
             </div>
 
             <div class="row-2">
-                <p>Bruce Banner, a scientist on the run from the U.S. Government, must find a cure for the monster he
-                    turns into whenever he loses his temper.</p>
+                <p>After being held captive in an Afghan cave, billionaire engineer Tony Stark creates a unique
+                    weaponized suit of armor to fight evil.</p>
             </div>
 
             <div class="row-3">
@@ -106,41 +100,40 @@
     <div class="cast">
 
         <a class="box">
-            <img src="../assets/movies/The-Incredible-Hulk/bruce.webp" alt="">
+            <img src="../assets/movies/Iron-Man/tonu.jpg" alt="">
             <div class="gradient-text">
-                <h2>Bruce Banner</h2>
-
+                <h2>Tony Stark</h2>
             </div>
         </a>
 
         <a class="box">
-            <img src="../assets/movies/The-Incredible-Hulk/bruce.webp" alt="">
+            <img src="../assets/movies/Iron-Man/tonu.jpg" alt="">
             <div class="gradient-text">
-                <h2>Bruce Banner</h2>
+                <h2>Tony Stark</h2>
             </div>
         </a>
         <a class="box">
-            <img src="../assets/movies/The-Incredible-Hulk/bruce.webp" alt="">
+            <img src="../assets/movies/Iron-Man/tonu.jpg" alt="">
             <div class="gradient-text">
-                <h2>Bruce Banner</h2>
+                <h2>Tony Stark</h2>
             </div>
         </a>
         <a class="box">
-            <img src="../assets/movies/The-Incredible-Hulk/bruce.webp" alt="">
+            <img src="../assets/movies/Iron-Man/tonu.jpg" alt="">
             <div class="gradient-text">
-                <h2>Bruce Banner</h2>
+                <h2>Tony Stark</h2>
             </div>
         </a>
         <a class="box">
-            <img src="../assets/movies/The-Incredible-Hulk/bruce.webp" alt="">
+            <img src="../assets/movies/Iron-Man/tonu.jpg" alt="">
             <div class="gradient-text">
-                <h2>Bruce Banner</h2>
+                <h2>Tony Stark</h2>
             </div>
         </a>
         <a class="box">
-            <img src="../assets/movies/The-Incredible-Hulk/bruce.webp" alt="">
+            <img src="../assets/movies/Iron-Man/tonu.jpg" alt="">
             <div class="gradient-text">
-                <h2>Bruce Banner</h2>
+                <h2>Tony Stark</h2>
             </div>
         </a>
 
@@ -155,11 +148,11 @@
         <div class="review-form">
             <div class="review-header">
                 <div class="poster">
-                    <img src="../assets/movies/The-Incredible-Hulk/sposter.jpg" alt="">
+                    <img src="../assets/movies/Iron-Man/sposter.jpg" alt="">
                 </div>
                 <div class="header-texts">
-                    <h2>The Incredible Hulk(2008)</h2>
-                    <p>Action, Sci Fiction</p>
+                    <h2>Avengers Age of Ultron(2008)</h2>
+                    <p>Action, Sci Fiction, Delusional</p>
                 </div>
 
                 <div onclick="hideForm()" class="cross-form"><i class="fa-solid fa-xmark"></i></div>
@@ -204,7 +197,6 @@
                 <textarea id="subText" name="" id="" cols="30" rows="10"
                     placeholder="exagerate your review..."></textarea>
             </div>
-
             <div class="sub-btn-container ">
                 <button type="submit" class="btn submit" onclick="handleSubmit()">Submit</button>
             </div>
@@ -215,7 +207,6 @@
 
     </div>
 
-    <div class="text-red-700 bg-green-600">hii</div>
 
 
 

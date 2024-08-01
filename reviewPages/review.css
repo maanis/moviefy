@@ -310,7 +310,7 @@ a {
     /* margin-left: .8rem; */
 }
 
-.row-1>p {
+.row-1 p {
     font-size: 2rem;
 }
 
@@ -874,6 +874,33 @@ input:checked~label {
 @media screen and (max-width:550px) {
     html {
         font-size: 40%;
+    }
+
+    .row-1 {
+        width: 95vw;
+    }
+
+    .row-1 h2 {
+        width: 85%;
+    }
+
+    .content {
+        text-align: center;
+    }
+
+    .row-2 {
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .row-2 p {
+        width: 72%;
+    }
+
+    .row-1 {
+        flex-direction: column;
+        column-gap: 0;
     }
 
     .main-logo {
