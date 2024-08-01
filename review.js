@@ -112,9 +112,9 @@ data.map((e) => {
 
 
 
-let urla = '/MarvelPhase1.json'
-let urlb = '/MarvelPhase2.json'
-let urlc = '/MarvelPhase3.json'
+let urla = '../MarvelPhase1.json'
+let urlb = '../MarvelPhase2.json'
+let urlc = '../MarvelPhase3.json'
 
 async function main() {
     let respa = await fetch(urla)
