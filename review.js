@@ -6,6 +6,7 @@ let searchValue = document.getElementById('search-input')
 
 let rate
 
+
 function showInput() {
     document.querySelector('.search-input').classList.add('show-input')
     document.querySelector('.cross').style.display = "block"
@@ -14,8 +15,8 @@ function showInput() {
 document.querySelector('.cross').addEventListener('click', () => {
     document.querySelector('.search-input').classList.remove('show-input')
     document.querySelector('.cross').style.display = "none"
-    search_input.value = ""
-    search_container.style.visibility = "hidden"
+    searchValue.value = ""
+    searchContainer.style.visibility = "hidden"
 })
 
 function showForm() {

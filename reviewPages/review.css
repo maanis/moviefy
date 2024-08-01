@@ -915,6 +915,7 @@ input:checked~label {
     .search-logo i,
     .cross i {
         font-size: 3.4rem;
+        cursor: pointer;
     }
 
     .logo img {
