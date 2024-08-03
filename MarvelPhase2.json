@@ -9,7 +9,13 @@
         "type": "Movie",
         "url": "",
         "trailer": "",
-        "hero": "assets/movies/Captain-America-Civil-War/bposter.jpg"
+        "hero": "assets/movies/Captain-America-Civil-War/bposter.jpg",
+        "ss1": "assets/movies/Captain-America-Civil-War/ss1.jpg",
+        "ss2": "assets/movies/Captain-America-Civil-War/ss2.jpg",
+        "ss3": "assets/movies/Captain-America-Civil-War/ss3.webp",
+        "overview": "Captain America: Civil War begins the next wave of Marvel movies with an action-packed superhero blockbuster boasting a decidedly non-cartoonish plot and the courage to explore thought-provoking themes.",
+        "iframe": "https://www.youtube.com/embed/dKrVegVI0Us?&theme=dark&autohide=2",
+        "review": "reviewPages/ironMan.html"
     },
     {
         "name": "Doctor Strange",
@@ -21,7 +27,13 @@
         "type": "Movie",
         "url": "",
         "trailer": "",
-        "hero": "assets/movies/Doctor-Strange/bposter.jpg"
+        "hero": "assets/movies/Doctor-Strange/bposter.jpg",
+        "ss1": "assets/movies/Doctor-Strange/ss1.jpg",
+        "ss2": "assets/movies/Doctor-Strange/ss2.webp",
+        "ss3": "assets/movies/Doctor-Strange/ss3.jpg",
+        "overview": "Doctor Strange artfully balances its outré source material against the blockbuster constraints of the MCU, delivering a thoroughly entertaining superhero origin story in the bargain.",
+        "iframe": "https://www.youtube.com/embed/h7gvFravm4A?&theme=dark&autohide=2",
+        "review": "reviewPages/ironMan.html"
     },
     {
         "name": "Guardians of the Galaxy Vol. 2",
@@ -33,7 +45,13 @@
         "type": "Movie",
         "url": "",
         "trailer": "",
-        "hero": "assets/movies/Guardians-of-Galaxy-Vol.2/bposter.webp"
+        "hero": "assets/movies/Guardians-of-Galaxy-Vol.2/bposter.webp",
+        "ss1": "assets/movies/Guardians-of-Galaxy-Vol.2/ss1.jpg",
+        "ss2": "assets/movies/Guardians-of-Galaxy-Vol.2/ss2.webp",
+        "ss3": "assets/movies/Guardians-of-Galaxy-Vol.2/ss3.webp",
+        "overview": "Guardians of the Galaxy Vol. 2's action-packed plot, dazzling visuals, and irreverent humor add up to a sequel that's almost as fun -- if not quite as thrillingly fresh -- as its predecessor.",
+        "iframe": "https://www.youtube.com/embed/dW1BIid8Osg?&theme=dark&autohide=2",
+        "review": "reviewPages/ironMan.html"
     },
     {
         "name": "Spider-Man: Homecoming",
@@ -45,7 +63,13 @@
         "type": "Movie",
         "url": "",
         "trailer": "",
-        "hero": "assets/movies/Spider-Man-Homecoming/bposter.png"
+        "hero": "assets/movies/Spider-Man-Homecoming/bposter.png",
+        "ss1": "assets/movies/Guardians-of-Galaxy-Vol.2/ss1.jpg",
+        "ss2": "assets/movies/Guardians-of-Galaxy-Vol.2/ss2.webp",
+        "ss3": "assets/movies/Guardians-of-Galaxy-Vol.2/ss2.webp",
+        "overview": "Spider-Man: Homecoming does whatever a second reboot can, delivering a colorful, fun adventure that fits snugly in the sprawling MCU without getting bogged down in franchise-building.",
+        "iframe": "https://www.youtube.com/embed/rk-dF1lIbIg?&theme=dark&autohide=2",
+        "review": "reviewPages/ironMan.html"
     },
     {
         "name": "Thor: Ragnarok",
@@ -57,7 +81,13 @@
         "type": "Movie",
         "url": "",
         "trailer": "",
-        "hero": "assets/movies/Thor-Ragnarok/bposter.jpg"
+        "hero": "assets/movies/Thor-Ragnarok/bposter.jpg",
+        "ss1": "assets/movies/Thor-Ragnarok/ss1.jpg",
+        "ss2": "assets/movies/Thor-Ragnarok/ss2.jpg",
+        "ss3": "assets/movies/Thor-Ragnarok/ss3.webp",
+        "overview": "Exciting, funny, and above all fun, Thor: Ragnarok is a colorful cosmic adventure that sets a new standard for its franchise -- and the rest of the Marvel Cinematic Universe.",
+        "iframe": "https://www.youtube.com/embed/ue80QwXMRHg?&theme=dark&autohide=2",
+        "review": "reviewPages/ironMan.html"
     },
     {
         "name": "Black Panther",
@@ -69,7 +99,13 @@
         "type": "Movie",
         "url": "",
         "trailer": "",
-        "hero": "assets/movies/Black-Panther/bposter.jpg"
+        "hero": "assets/movies/Black-Panther/bposter.jpg",
+        "ss1": "assets/movies/Black-Panther/ss1.webp",
+        "ss2": "assets/movies/Black-Panther/ss2.webp",
+        "ss3": "assets/movies/Black-Panther/ss3.webp",
+        "overview": "Black Panther elevates superhero cinema to thrilling new heights while telling one of the MCU's most absorbing stories -- and introducing some of its most fully realized characters.",
+        "iframe": "https://www.youtube.com/embed/xjDjIWPwcPU?&theme=dark&autohide=2",
+        "review": "reviewPages/ironMan.html"
     },
     {
         "name": "Avengers: Infinity War",
@@ -81,7 +117,13 @@
         "type": "Movie",
         "url": "",
         "trailer": "",
-        "hero": "assets/movies/Avengers-Infinity-War/bposter.webp"
+        "hero": "assets/movies/Avengers-Infinity-War/bposter.webp",
+        "ss1": "assets/movies/Avengers-Infinity-War/ss1.webp",
+        "ss2": "assets/movies/Avengers-Infinity-War/ss2.webp",
+        "ss3": "assets/movies/Avengers-Infinity-War/ss3.jpeg",
+        "overview": "Avengers: Infinity War ably juggles a dizzying array of MCU heroes in the fight against their gravest threat yet, and the result is a thrilling, emotionally resonant blockbuster that (mostly) realizes its gargantuan ambitions.",
+        "iframe": "https://www.youtube.com/embed/6ZfuNTqbHE8?&theme=dark&autohide=2",
+        "review": "reviewPages/ironMan.html"
     },
     {
         "name": "Ant-Man and the Wasp",
@@ -93,7 +135,13 @@
         "type": "Movie",
         "url": "",
         "trailer": "",
-        "hero": "assets/movies/Ant-Man-and-the-Wasp/bposter.jpg"
+        "hero": "assets/movies/Ant-Man-and-the-Wasp/bposter.jpg",
+        "ss1": "assets/movies/Ant-Man-and-the-Wasp/ss1.jpg",
+        "ss2": "assets/movies/Ant-Man-and-the-Wasp/ss2.jpg",
+        "ss3": "assets/movies/Ant-Man-and-the-Wasp/ss3.webp",
+        "overview": "A lighter, brighter superhero movie powered by the effortless charisma of Paul Rudd and Evangeline Lilly, Ant-Man and The Wasp offers a much-needed MCU palate cleanser.",
+        "iframe": "https://www.youtube.com/embed/8_rTIAOohas?&theme=dark&autohide=2",
+        "review": "reviewPages/ironMan.html"
     },
     {
         "name": "Captain Marvel",
@@ -105,7 +153,13 @@
         "type": "Movie",
         "url": "",
         "trailer": "",
-        "hero": "assets/movies/Captain-Marvel/bposter.webp"
+        "hero": "assets/movies/Captain-Marvel/bposter.webp",
+        "ss1": "assets/movies/Captain-Marvel/ss1.jpg",
+        "ss2": "assets/movies/Captain-Marvel/ss2.jpg",
+        "ss3": "assets/movies/Captain-Marvel/ss3.jpg",
+        "overview": "Packed with action, humor, and visual thrills, Captain Marvel introduces the MCU's latest hero with an origin story that makes effective use of the franchise's signature formula.",
+        "iframe": "https://www.youtube.com/embed/Z1BCujX3pw8?&theme=dark&autohide=2",
+        "review": "reviewPages/ironMan.html"
     },
     {
         "name": "Avengers: Endgame",
@@ -117,7 +171,13 @@
         "type": "Movie",
         "url": "",
         "trailer": "",
-        "hero": "assets/movies/Avengers-Endgame/bposter.jpg"
+        "hero": "assets/movies/Avengers-Endgame/bposter.jpg",
+        "ss1": "assets/movies/Avengers-Endgame/ss1.jpeg",
+        "ss2": "assets/movies/Avengers-Endgame/ss2.jpg",
+        "ss3": "assets/movies/Avengers-Endgame/ss3.jpg",
+        "overview": "Exciting, entertaining, and emotionally impactful, Avengers: Endgame does whatever it takes to deliver a satisfying finale to Marvel's epic Infinity Saga.",
+        "iframe": "https://www.youtube.com/embed/TcMBFSGVi1c?&theme=dark&autohide=2",
+        "review": "reviewPages/ironMan.html"
     },
     {
         "name": "Spider-Man: Far from Home",
@@ -129,6 +189,12 @@
         "type": "Movie",
         "url": "",
         "trailer": "",
-        "hero": "assets/movies/Spider-Man-Far-from-Home/bposter.jpg"
+        "hero": "assets/movies/Spider-Man-Far-from-Home/bposter.jpg",
+        "ss1": "assets/movies/Spider-Man-Far-from-Home/ss1.jpg",
+        "ss2": "assets/movies/Spider-Man-Far-from-Home/ss2.webp",
+        "ss3": "assets/movies/Spider-Man-Far-from-Home/ss3.webp",
+        "overview": "Peter Parker's relaxing European vacation takes an unexpected turn when Nick Fury shows up in his hotel room to recruit him for a mission.",
+        "iframe": "https://www.youtube.com/embed/Nt9L1jCKGnE?&theme=dark&autohide=2",
+        "review": "reviewPages/ironMan.html"
     }
 ]

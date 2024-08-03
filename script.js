@@ -82,18 +82,9 @@ let url = 'MarvelPhase1.json'
 async function main() {
     let res = await fetch(url)
     let data = await res.json()
-    console.log(data);
-    // console.log(data[2].name)
-    // console.log(typeof data)
-    // let Arrdata = Array.from(data)
-    // console.log(Arrdata)
-    // console.log(typeof Arrdata)
-    // let x = data.reverse()
-    // console.log(x)
     data.forEach((e, id) => {
 
         // -------------search section-----------
-        console.log(e)
 
         let search_card = document.createElement('a')
         search_card.classList.add('cards')
@@ -108,12 +99,13 @@ async function main() {
             document.querySelector('.hero').style.background = `url(${e.hero}) no-repeat center center/cover`
 
             document.getElementById('head-name').innerHTML = e.name
-            // console.log(e[el.target.id].name)
             console.log(e.trailer)
             search_container.style.display = "none"
             search_input.value = ""
             document.querySelector('.search-input').classList.remove('show-input')
             document.querySelector('.cross').style.display = "none"
+
+            document.getElementById('frame-src').src = e.iframe
         })
 
 
@@ -143,23 +135,11 @@ async function main() {
             document.querySelector('.rate').innerHTML = `<span>IMDB</span> <i class="fa-solid fa-star"></i> ${e.imdb}`
             document.querySelector('#head-summary').innerHTML = `${e.overview}`
             document.getElementById('head-genre').innerHTML = `${e.genre}`
-            // document.getElementById('hero-vid').src = `${e.trailer}`
             document.getElementById('frame-src').src = e.iframe
             document.querySelector('.review-button').href = e.review
-            // console.log(document.querySelector('.review-button').href)
-            console.log(document.querySelector('.review-button'))
-            console.log(e.frame)
-
             document.getElementById('img1').src = e.ss1
             document.getElementById('img2').src = e.ss2
             document.getElementById('img3').src = e.ss3
-
-            // console.log(e[el.target.id].name)
-            console.log(e.name)
-            console.log(e.imdb)
-            console.log(e.hero)
-            console.log(e.trailer)
-
         })
 
         search_input.addEventListener("keyup", () => {
@@ -196,13 +176,6 @@ let urlb = 'MarvelPhase2.json'
 async function mainb() {
     let res = await fetch(urlb)
     let data = await res.json()
-    // console.log(data[2].name)
-    // console.log(typeof data)
-    // let Arrdata = Array.from(data)
-    // console.log(Arrdata)
-    // console.log(typeof Arrdata)
-    // let x = data.reverse()
-    // console.log(x)
     data.forEach((e, id) => {
 
         // -------------search section-----------
@@ -222,6 +195,7 @@ async function mainb() {
             console.log(e.name)
             search_container.style.display = "none"
             search_input.value = ""
+            document.getElementById('frame-src').src = e.iframe
             document.querySelector('.search-input').classList.remove('show-input')
             document.querySelector('.cross').style.display = "none"
         })
@@ -252,12 +226,12 @@ async function mainb() {
             document.getElementById('content-date').innerHTML = e.date
             document.querySelector('.rate').innerHTML = `<span>IMDB</span> <i class="fa-solid fa-star"></i> ${e.imdb}`
             document.querySelector('#head-summary').innerHTML = `${e.overview}`
-
-            // console.log(e[el.target.id].name)
-            console.log(e.name)
-            console.log(e.imdb)
-            console.log(e.hero)
-
+            document.getElementById('head-genre').innerHTML = `${e.genre}`
+            document.getElementById('frame-src').src = e.iframe
+            document.querySelector('.review-button').href = e.review
+            document.getElementById('img1').src = e.ss1
+            document.getElementById('img2').src = e.ss2
+            document.getElementById('img3').src = e.ss3
         })
 
         search_input.addEventListener("keyup", () => {
@@ -294,13 +268,6 @@ let urlc = 'MarvelPhase3.json'
 async function mainc() {
     let res = await fetch(urlc)
     let data = await res.json()
-    // console.log(data[2].name)
-    // console.log(typeof data)
-    // let Arrdata = Array.from(data)
-    // console.log(Arrdata)
-    // console.log(typeof Arrdata)
-    // let x = data.reverse()
-    // console.log(x)
     data.forEach((e, id) => {
 
         // -------------search section-----------
@@ -320,6 +287,7 @@ async function mainc() {
             console.log(e.name)
             search_container.style.display = "none"
             search_input.value = ""
+            document.getElementById('frame-src').src = e.iframe
             document.querySelector('.search-input').classList.remove('show-input')
             document.querySelector('.cross').style.display = "none"
         })
@@ -350,13 +318,12 @@ async function mainc() {
             document.getElementById('content-date').innerHTML = e.date
             document.querySelector('.rate').innerHTML = `<span>IMDB</span> <i class="fa-solid fa-star"></i> ${e.imdb}`
             document.querySelector('#head-summary').innerHTML = `${e.overview}`
-
-
-            // console.log(e[el.target.id].name)
-            console.log(e.name)
-            console.log(e.imdb)
-            console.log(e.hero)
-
+            document.getElementById('head-genre').innerHTML = `${e.genre}`
+            document.getElementById('frame-src').src = e.iframe
+            document.querySelector('.review-button').href = e.review
+            document.getElementById('img1').src = e.ss1
+            document.getElementById('img2').src = e.ss2
+            document.getElementById('img3').src = e.ss3
         })
 
         search_input.addEventListener("keyup", () => {
